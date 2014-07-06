@@ -1,0 +1,14 @@
+{ "name": "adpi",
+  "description": "A simple API for creating, storing, and serving ads",
+  "version": "0.0.0",
+  "private": "true",
+  "dependencies": {
+    "mongoose": "^3.8.12",
+    "express":"~4.4.5",
+    "async": "0.9.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "main": "server.js"
+}
